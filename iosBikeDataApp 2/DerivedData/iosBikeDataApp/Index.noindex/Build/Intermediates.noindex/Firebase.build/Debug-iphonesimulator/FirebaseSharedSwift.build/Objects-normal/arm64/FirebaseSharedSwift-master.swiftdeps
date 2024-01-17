@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "1866882d80970097e6106d9e47135b3683e3c77f7b8a399d3bc0a13a553bf949"
+build_start_time: [1701662870, 749513000]
+build_end_time: [1701662873, 126303000]
+inputs:
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseSharedSwift/Sources/FirebaseRemoteConfigValueDecoding.swift"
+  : [1693533211, 980097744]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseSharedSwift/Sources/third_party/FirebaseDataEncoder/FirebaseDataEncoder.swift"
+  : [1693533211, 980658578]

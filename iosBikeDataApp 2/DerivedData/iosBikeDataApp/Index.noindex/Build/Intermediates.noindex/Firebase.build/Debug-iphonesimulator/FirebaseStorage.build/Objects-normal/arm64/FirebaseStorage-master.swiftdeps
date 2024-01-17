@@ -1,0 +1,51 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "660c7075aa3ffd7606c064bc9c1950574dba27b70a552a686e713cd2f46cb46f"
+build_start_time: [1701662877, 846457000]
+build_end_time: [1701662878, 209067000]
+inputs:
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/AsyncAwait.swift"
+  : [1693533211, 981591580]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageDeleteTask.swift"
+  : [1693533211, 981710623]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageGetDownloadURLTask.swift"
+  : [1693533211, 981797623]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageGetMetadataTask.swift"
+  : [1693533211, 981863664]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageListTask.swift"
+  : [1693533211, 981929748]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StoragePath.swift"
+  : [1693533211, 982009540]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageTaskState.swift"
+  : [1693533211, 982075082]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageTokenAuthorizer.swift"
+  : [1693533211, 982147623]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageUpdateMetadataTask.swift"
+  : [1693533211, 982206915]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Internal/StorageUtils.swift"
+  : [1693533211, 982276207]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Result.swift"
+  : [1693533211, 982356291]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/Storage.swift"
+  : [1693533211, 982461207]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageComponent.swift"
+  : [1693533211, 982537416]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageConstants.swift"
+  : [1693533211, 982607874]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageDownloadTask.swift"
+  : [1693533211, 982683750]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageError.swift"
+  : [1693533211, 982774625]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageListResult.swift"
+  : [1693533211, 982847083]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageMetadata.swift"
+  : [1693533211, 982940958]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageObservableTask.swift"
+  : [1693533211, 983024125]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageReference.swift"
+  : [1693533211, 983142375]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageTask.swift"
+  : [1693533211, 983215751]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageTaskSnapshot.swift"
+  : [1693533211, 983293501]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/firebase-ios-sdk/FirebaseStorage/Sources/StorageUploadTask.swift"
+  : [1693533211, 983375918]

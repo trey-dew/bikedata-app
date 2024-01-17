@@ -1,0 +1,4 @@
+module GoogleUtilities_MethodSwizzler {
+umbrella "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public"
+export *
+}

@@ -1,0 +1,43 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "72b9751b944f6b9fdddb6d370fab8266ed65c54e3a17671b3f92dc64a0a16761"
+build_start_time: [1701662879, 201118000]
+build_end_time: [1701662880, 46428000]
+inputs:
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+All.swift"
+  : [1693533213, 27221227]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Always.swift"
+  : [1693533213, 27293436]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Any.swift"
+  : [1693533213, 27364978]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Async.swift"
+  : [1693533213, 27438603]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Await.swift"
+  : [1693533213, 27519145]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Catch.swift"
+  : [1693533213, 27589395]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Delay.swift"
+  : [1693533213, 27646645]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Do.swift"
+  : [1693533213, 27707353]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Race.swift"
+  : [1693533213, 27769770]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Recover.swift"
+  : [1693533213, 27831395]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Reduce.swift"
+  : [1693533213, 27889062]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Retry.swift"
+  : [1693533213, 27955229]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Testing.swift"
+  : [1693533213, 28028229]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Then.swift"
+  : [1693533213, 28080271]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Timeout.swift"
+  : [1693533213, 28126979]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Validate.swift"
+  : [1693533213, 28189146]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise+Wrap.swift"
+  : [1693533213, 28253771]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/Promise.swift"
+  : [1693533213, 28322980]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/promises/Sources/Promises/PromiseError.swift"
+  : [1693533213, 28382605]

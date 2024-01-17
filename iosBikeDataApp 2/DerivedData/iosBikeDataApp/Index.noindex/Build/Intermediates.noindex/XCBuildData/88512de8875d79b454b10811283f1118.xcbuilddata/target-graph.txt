@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+iosBikeDataApp in iosBikeDataApp, no dependencies
+iosBikeDataApp in iosBikeDataApp, no dependencies
+iosBikeDataAppTests in iosBikeDataApp, depends on:
+iosBikeDataApp in iosBikeDataApp (explicit)
+iosBikeDataAppTests in iosBikeDataApp, depends on:
+iosBikeDataApp in iosBikeDataApp (explicit)
+iosBikeDataAppTests in iosBikeDataApp, no dependencies
+iosBikeDataAppUITests in iosBikeDataApp, depends on:
+iosBikeDataApp in iosBikeDataApp (explicit)
+iosBikeDataAppUITests in iosBikeDataApp, depends on:
+iosBikeDataApp in iosBikeDataApp (explicit)
+iosBikeDataAppUITests in iosBikeDataApp, no dependencies

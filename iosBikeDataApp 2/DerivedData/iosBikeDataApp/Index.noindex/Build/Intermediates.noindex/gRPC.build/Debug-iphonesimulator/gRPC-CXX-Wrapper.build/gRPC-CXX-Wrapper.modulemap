@@ -1,0 +1,4 @@
+module gRPC_CXX_Wrapper {
+umbrella "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/grpc-binary/gRPC-CXX-Wrapper/include"
+export *
+}

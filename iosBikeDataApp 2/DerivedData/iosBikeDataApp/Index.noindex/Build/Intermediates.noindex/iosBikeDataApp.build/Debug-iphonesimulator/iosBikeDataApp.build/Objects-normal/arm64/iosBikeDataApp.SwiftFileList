@@ -1,0 +1,42 @@
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/ProfileView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/MapView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/ContentViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/TrackingView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/BikingOptionView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Models/BikeLocation.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/DailySpeedChartView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/LoginViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/extensions/Extentions.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/RegisterViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/ContentView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/StopWatchView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/MapViewRepresentable.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/DataCollectionView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/SpeedView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Models/User.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/StatsView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Managers/LocationManager.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/RegisterView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Location\ Search/views/LocationSearchResultCell.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/WeeklySpeedChartView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/extensions/Color.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/ProfileViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Models/MapViewState.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/NewStopWatchView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Models/DataCollection.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/MonthlySpeedChartView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/MonthlyChartView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Location\ Search/viewModels/LocationSearchViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/MapViewActionButton.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/DailyStatsChartView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/HomeView/WeeklyChartsView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/LoginView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/iosBikeDataAppApp.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/views/StaticBikeView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/HomeViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Location\ Search/views/LocationSearchView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Location\ Search/views/LocationSearchActivationView.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/viewModels/StaticBikeViewViewModel.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/extensions/Double.swift
+/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp/Trips/StartStopWatchView.swift

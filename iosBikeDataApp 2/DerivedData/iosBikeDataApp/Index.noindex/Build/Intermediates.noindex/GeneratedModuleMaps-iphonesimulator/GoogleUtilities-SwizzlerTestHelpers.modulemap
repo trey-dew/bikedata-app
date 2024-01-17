@@ -1,0 +1,4 @@
+module GoogleUtilities_SwizzlerTestHelpers {
+umbrella "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/SwizzlerTestHelpers/Public"
+export *
+}

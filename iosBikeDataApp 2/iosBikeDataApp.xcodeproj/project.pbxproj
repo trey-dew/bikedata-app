@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8078F3B2AA656DA00D7102F /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8078F3A2AA656DA00D7102F /* LoginViewViewModel.swift */; };
+		F8078F3E2AA6630E00D7102F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8078F3D2AA6630E00D7102F /* FirebaseAuth */; };
+		F8078F402AA6632F00D7102F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F8078F3F2AA6632F00D7102F /* FirebaseFirestore */; };
+		F8078F422AA6633900D7102F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F8078F412AA6633900D7102F /* FirebaseFirestoreSwift */; };
+		F8078F442AA6640200D7102F /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8078F432AA6640200D7102F /* RegisterViewViewModel.swift */; };
+		F8078F472AA666DC00D7102F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8078F462AA666DC00D7102F /* User.swift */; };
+		F8078F492AA6682400D7102F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8078F482AA6682400D7102F /* Extentions.swift */; };
+		F8078F4B2AA669CC00D7102F /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8078F4A2AA669CC00D7102F /* ContentViewViewModel.swift */; };
+		F81667342AC8BF4400C3BC39 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81667332AC8BF4400C3BC39 /* StatsView.swift */; };
+		F842FE5D2AA96E7000F08FA8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F842FE5C2AA96E7000F08FA8 /* HomeView.swift */; };
+		F84EF8FD2AAE22B000B2CD08 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EF8FC2AAE22B000B2CD08 /* LocationSearchActivationView.swift */; };
+		F84EF8FF2AAE247200B2CD08 /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EF8FE2AAE247200B2CD08 /* MapViewActionButton.swift */; };
+		F84EF9012AAE258700B2CD08 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EF9002AAE258700B2CD08 /* LocationSearchView.swift */; };
+		F84EF9032AAE285300B2CD08 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EF9022AAE285300B2CD08 /* LocationSearchResultCell.swift */; };
+		F86612D42ABF556A00FEB532 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86612D32ABF556A00FEB532 /* Double.swift */; };
+		F86612D62ABF68B100FEB532 /* StaticBikeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86612D52ABF68B100FEB532 /* StaticBikeViewViewModel.swift */; };
+		F86612D82ABF703800FEB532 /* DataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86612D72ABF703700FEB532 /* DataCollection.swift */; };
+		F86612DA2ABFC45B00FEB532 /* DataCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86612D92ABFC45B00FEB532 /* DataCollectionView.swift */; };
+		F87C2EFA2AA17BC3008E4753 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F87C2EF92AA17BC3008E4753 /* FirebaseAnalytics */; };
+		F87C2EFC2AA17BC3008E4753 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F87C2EFB2AA17BC3008E4753 /* FirebaseAnalyticsSwift */; };
+		F87C2EFE2AA17D6F008E4753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87C2EFD2AA17D6F008E4753 /* GoogleService-Info.plist */; };
+		F88866652AB1472B005433DC /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88866642AB1472B005433DC /* LocationSearchViewModel.swift */; };
+		F8A8101C2AAC1D4700C040A6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8101B2AAC1D4700C040A6 /* ProfileView.swift */; };
+		F8A8101E2AAC263E00C040A6 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8101D2AAC263E00C040A6 /* ProfileViewViewModel.swift */; };
+		F8A9D1432AC0D5ED00948284 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9D1422AC0D5ED00948284 /* HomeViewViewModel.swift */; };
+		F8A9D1462AC0E38900948284 /* DailyStatsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9D1452AC0E38900948284 /* DailyStatsChartView.swift */; };
+		F8A9D1482AC0E3A200948284 /* WeeklyChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9D1472AC0E3A200948284 /* WeeklyChartsView.swift */; };
+		F8A9D14A2AC0E3B400948284 /* MonthlyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9D1492AC0E3B400948284 /* MonthlyChartView.swift */; };
+		F8B0C6E52AC9D78000B6CDBC /* DailySpeedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0C6E42AC9D78000B6CDBC /* DailySpeedChartView.swift */; };
+		F8B0C6E72AC9D79100B6CDBC /* WeeklySpeedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0C6E62AC9D79100B6CDBC /* WeeklySpeedChartView.swift */; };
+		F8B0C6E92AC9D7A200B6CDBC /* MonthlySpeedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0C6E82AC9D7A200B6CDBC /* MonthlySpeedChartView.swift */; };
+		F8B0C6EB2AC9DCC700B6CDBC /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0C6EA2AC9DCC700B6CDBC /* SpeedView.swift */; };
+		F8D08C752AAD36620042FABA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D08C742AAD36620042FABA /* MapView.swift */; };
+		F8D08C772AAD376D0042FABA /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D08C762AAD376D0042FABA /* TrackingView.swift */; };
+		F8D08C792AAD377C0042FABA /* StaticBikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D08C782AAD377C0042FABA /* StaticBikeView.swift */; };
+		F8D08C7B2AAD5C0D0042FABA /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D08C7A2AAD5C0D0042FABA /* MapViewRepresentable.swift */; };
+		F8D08C7E2AAD5EAA0042FABA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D08C7D2AAD5EAA0042FABA /* LocationManager.swift */; };
+		F8D4E8BF2AACC2390053EC27 /* NewStopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4E8BE2AACC2390053EC27 /* NewStopWatchView.swift */; };
+		F8D4E8C12AACD0CA0053EC27 /* BikingOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4E8C02AACD0CA0053EC27 /* BikingOptionView.swift */; };
+		F8D573182A9A9B1400CE616D /* iosBikeDataAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D573172A9A9B1400CE616D /* iosBikeDataAppApp.swift */; };
+		F8D5731A2A9A9B1400CE616D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D573192A9A9B1400CE616D /* ContentView.swift */; };
+		F8D5731C2A9A9B1600CE616D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D5731B2A9A9B1600CE616D /* Assets.xcassets */; };
+		F8D5731F2A9A9B1600CE616D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D5731E2A9A9B1600CE616D /* Preview Assets.xcassets */; };
+		F8D573292A9A9B1600CE616D /* iosBikeDataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D573282A9A9B1600CE616D /* iosBikeDataAppTests.swift */; };
+		F8D573332A9A9B1600CE616D /* iosBikeDataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D573322A9A9B1600CE616D /* iosBikeDataAppUITests.swift */; };
+		F8D573352A9A9B1600CE616D /* iosBikeDataAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D573342A9A9B1600CE616D /* iosBikeDataAppUITestsLaunchTests.swift */; };
+		F8E14D842AB6140500D56196 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E14D832AB6140500D56196 /* MapViewState.swift */; };
+		F8E14D872AB61DFD00D56196 /* StartStopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E14D862AB61DFD00D56196 /* StartStopWatchView.swift */; };
+		F8E14D892AB6618F00D56196 /* BikeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E14D882AB6618F00D56196 /* BikeLocation.swift */; };
+		F8E14D8B2AB66EE300D56196 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E14D8A2AB66EE300D56196 /* Color.swift */; };
+		F8F519022A9D8035005AAC28 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F519012A9D8034005AAC28 /* StopWatchView.swift */; };
+		F8F56D802AA502560037CF1D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F56D7F2AA502560037CF1D /* LoginView.swift */; };
+		F8F56D822AA509680037CF1D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F56D812AA509680037CF1D /* RegisterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D573252A9A9B1600CE616D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D5730C2A9A9B1400CE616D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D573132A9A9B1400CE616D;
+			remoteInfo = iosBikeDataApp;
+		};
+		F8D5732F2A9A9B1600CE616D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D5730C2A9A9B1400CE616D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D573132A9A9B1400CE616D;
+			remoteInfo = iosBikeDataApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8078F3A2AA656DA00D7102F /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		F8078F432AA6640200D7102F /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		F8078F462AA666DC00D7102F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8078F482AA6682400D7102F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		F8078F4A2AA669CC00D7102F /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		F81667332AC8BF4400C3BC39 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		F842FE5C2AA96E7000F08FA8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F84EF8FC2AAE22B000B2CD08 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		F84EF8FE2AAE247200B2CD08 /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		F84EF9002AAE258700B2CD08 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		F84EF9022AAE285300B2CD08 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		F86612D32ABF556A00FEB532 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F86612D52ABF68B100FEB532 /* StaticBikeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticBikeViewViewModel.swift; sourceTree = "<group>"; };
+		F86612D72ABF703700FEB532 /* DataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollection.swift; sourceTree = "<group>"; };
+		F86612D92ABFC45B00FEB532 /* DataCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionView.swift; sourceTree = "<group>"; };
+		F87C2EFD2AA17D6F008E4753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F88866642AB1472B005433DC /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		F8A8101B2AAC1D4700C040A6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F8A8101D2AAC263E00C040A6 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		F8A9D1422AC0D5ED00948284 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		F8A9D1452AC0E38900948284 /* DailyStatsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStatsChartView.swift; sourceTree = "<group>"; };
+		F8A9D1472AC0E3A200948284 /* WeeklyChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartsView.swift; sourceTree = "<group>"; };
+		F8A9D1492AC0E3B400948284 /* MonthlyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyChartView.swift; sourceTree = "<group>"; };
+		F8B0C6E42AC9D78000B6CDBC /* DailySpeedChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySpeedChartView.swift; sourceTree = "<group>"; };
+		F8B0C6E62AC9D79100B6CDBC /* WeeklySpeedChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySpeedChartView.swift; sourceTree = "<group>"; };
+		F8B0C6E82AC9D7A200B6CDBC /* MonthlySpeedChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySpeedChartView.swift; sourceTree = "<group>"; };
+		F8B0C6EA2AC9DCC700B6CDBC /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
+		F8D08C742AAD36620042FABA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F8D08C762AAD376D0042FABA /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		F8D08C782AAD377C0042FABA /* StaticBikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticBikeView.swift; sourceTree = "<group>"; };
+		F8D08C7A2AAD5C0D0042FABA /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		F8D08C7D2AAD5EAA0042FABA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F8D4E8BE2AACC2390053EC27 /* NewStopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStopWatchView.swift; sourceTree = "<group>"; };
+		F8D4E8C02AACD0CA0053EC27 /* BikingOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikingOptionView.swift; sourceTree = "<group>"; };
+		F8D573142A9A9B1400CE616D /* iosBikeDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosBikeDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D573172A9A9B1400CE616D /* iosBikeDataAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosBikeDataAppApp.swift; sourceTree = "<group>"; };
+		F8D573192A9A9B1400CE616D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8D5731B2A9A9B1600CE616D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D5731E2A9A9B1600CE616D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8D573242A9A9B1600CE616D /* iosBikeDataAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosBikeDataAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D573282A9A9B1600CE616D /* iosBikeDataAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosBikeDataAppTests.swift; sourceTree = "<group>"; };
+		F8D5732E2A9A9B1600CE616D /* iosBikeDataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosBikeDataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D573322A9A9B1600CE616D /* iosBikeDataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosBikeDataAppUITests.swift; sourceTree = "<group>"; };
+		F8D573342A9A9B1600CE616D /* iosBikeDataAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosBikeDataAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8E14D832AB6140500D56196 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		F8E14D862AB61DFD00D56196 /* StartStopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopWatchView.swift; sourceTree = "<group>"; };
+		F8E14D882AB6618F00D56196 /* BikeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeLocation.swift; sourceTree = "<group>"; };
+		F8E14D8A2AB66EE300D56196 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F8F519012A9D8034005AAC28 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		F8F56D7F2AA502560037CF1D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F8F56D812AA509680037CF1D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D573112A9A9B1400CE616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8078F422AA6633900D7102F /* FirebaseFirestoreSwift in Frameworks */,
+				F87C2EFC2AA17BC3008E4753 /* FirebaseAnalyticsSwift in Frameworks */,
+				F8078F402AA6632F00D7102F /* FirebaseFirestore in Frameworks */,
+				F8078F3E2AA6630E00D7102F /* FirebaseAuth in Frameworks */,
+				F87C2EFA2AA17BC3008E4753 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D573212A9A9B1600CE616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5732B2A9A9B1600CE616D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8078F372AA6562000D7102F /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F8078F3A2AA656DA00D7102F /* LoginViewViewModel.swift */,
+				F8078F432AA6640200D7102F /* RegisterViewViewModel.swift */,
+				F8078F4A2AA669CC00D7102F /* ContentViewViewModel.swift */,
+				F8A8101D2AAC263E00C040A6 /* ProfileViewViewModel.swift */,
+				F8D08C7A2AAD5C0D0042FABA /* MapViewRepresentable.swift */,
+				F86612D52ABF68B100FEB532 /* StaticBikeViewViewModel.swift */,
+				F8A9D1422AC0D5ED00948284 /* HomeViewViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		F8078F3C2AA6630E00D7102F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8078F452AA666C800D7102F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8078F462AA666DC00D7102F /* User.swift */,
+				F8E14D832AB6140500D56196 /* MapViewState.swift */,
+				F8E14D882AB6618F00D56196 /* BikeLocation.swift */,
+				F86612D72ABF703700FEB532 /* DataCollection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F840AAD22A9C090E00C64C7C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9D1442AC0E30D00948284 /* HomeView */,
+				F842FE5C2AA96E7000F08FA8 /* HomeView.swift */,
+				F81667332AC8BF4400C3BC39 /* StatsView.swift */,
+				F8B0C6EA2AC9DCC700B6CDBC /* SpeedView.swift */,
+				F8D573192A9A9B1400CE616D /* ContentView.swift */,
+				F8F519012A9D8034005AAC28 /* StopWatchView.swift */,
+				F8F56D7F2AA502560037CF1D /* LoginView.swift */,
+				F8F56D812AA509680037CF1D /* RegisterView.swift */,
+				F8A8101B2AAC1D4700C040A6 /* ProfileView.swift */,
+				F8D4E8BE2AACC2390053EC27 /* NewStopWatchView.swift */,
+				F8D4E8C02AACD0CA0053EC27 /* BikingOptionView.swift */,
+				F8D08C742AAD36620042FABA /* MapView.swift */,
+				F8D08C762AAD376D0042FABA /* TrackingView.swift */,
+				F8D08C782AAD377C0042FABA /* StaticBikeView.swift */,
+				F84EF8FE2AAE247200B2CD08 /* MapViewActionButton.swift */,
+				F86612D92ABFC45B00FEB532 /* DataCollectionView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F84EF8F92AAE227000B2CD08 /* Location Search */ = {
+			isa = PBXGroup;
+			children = (
+				F84EF8FB2AAE228800B2CD08 /* viewModels */,
+				F84EF8FA2AAE228200B2CD08 /* views */,
+			);
+			path = "Location Search";
+			sourceTree = "<group>";
+		};
+		F84EF8FA2AAE228200B2CD08 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F84EF8FC2AAE22B000B2CD08 /* LocationSearchActivationView.swift */,
+				F84EF9002AAE258700B2CD08 /* LocationSearchView.swift */,
+				F84EF9022AAE285300B2CD08 /* LocationSearchResultCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F84EF8FB2AAE228800B2CD08 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F88866642AB1472B005433DC /* LocationSearchViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		F8A9D1442AC0E30D00948284 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9D1452AC0E38900948284 /* DailyStatsChartView.swift */,
+				F8A9D1472AC0E3A200948284 /* WeeklyChartsView.swift */,
+				F8A9D1492AC0E3B400948284 /* MonthlyChartView.swift */,
+				F8B0C6E42AC9D78000B6CDBC /* DailySpeedChartView.swift */,
+				F8B0C6E62AC9D79100B6CDBC /* WeeklySpeedChartView.swift */,
+				F8B0C6E82AC9D7A200B6CDBC /* MonthlySpeedChartView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		F8D08C7C2AAD5E8C0042FABA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F8D08C7D2AAD5EAA0042FABA /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F8D5730B2A9A9B1400CE616D = {
+			isa = PBXGroup;
+			children = (
+				F8D573162A9A9B1400CE616D /* iosBikeDataApp */,
+				F8D573272A9A9B1600CE616D /* iosBikeDataAppTests */,
+				F8D573312A9A9B1600CE616D /* iosBikeDataAppUITests */,
+				F8D573152A9A9B1400CE616D /* Products */,
+				F8078F3C2AA6630E00D7102F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D573152A9A9B1400CE616D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D573142A9A9B1400CE616D /* iosBikeDataApp.app */,
+				F8D573242A9A9B1600CE616D /* iosBikeDataAppTests.xctest */,
+				F8D5732E2A9A9B1600CE616D /* iosBikeDataAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D573162A9A9B1400CE616D /* iosBikeDataApp */ = {
+			isa = PBXGroup;
+			children = (
+				F8E14D8C2AB6712B00D56196 /* extensions */,
+				F84EF8F92AAE227000B2CD08 /* Location Search */,
+				F8D573172A9A9B1400CE616D /* iosBikeDataAppApp.swift */,
+				F87C2EFD2AA17D6F008E4753 /* GoogleService-Info.plist */,
+				F8078F452AA666C800D7102F /* Models */,
+				F8078F372AA6562000D7102F /* viewModels */,
+				F8E14D852AB61DDD00D56196 /* Trips */,
+				F840AAD22A9C090E00C64C7C /* views */,
+				F8D5731B2A9A9B1600CE616D /* Assets.xcassets */,
+				F8D08C7C2AAD5E8C0042FABA /* Managers */,
+				F8D5731D2A9A9B1600CE616D /* Preview Content */,
+			);
+			path = iosBikeDataApp;
+			sourceTree = "<group>";
+		};
+		F8D5731D2A9A9B1600CE616D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8D5731E2A9A9B1600CE616D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8D573272A9A9B1600CE616D /* iosBikeDataAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D573282A9A9B1600CE616D /* iosBikeDataAppTests.swift */,
+			);
+			path = iosBikeDataAppTests;
+			sourceTree = "<group>";
+		};
+		F8D573312A9A9B1600CE616D /* iosBikeDataAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D573322A9A9B1600CE616D /* iosBikeDataAppUITests.swift */,
+				F8D573342A9A9B1600CE616D /* iosBikeDataAppUITestsLaunchTests.swift */,
+			);
+			path = iosBikeDataAppUITests;
+			sourceTree = "<group>";
+		};
+		F8E14D852AB61DDD00D56196 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				F8E14D862AB61DFD00D56196 /* StartStopWatchView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		F8E14D8C2AB6712B00D56196 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F8E14D8A2AB66EE300D56196 /* Color.swift */,
+				F8078F482AA6682400D7102F /* Extentions.swift */,
+				F86612D32ABF556A00FEB532 /* Double.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D573132A9A9B1400CE616D /* iosBikeDataApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D573382A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataApp" */;
+			buildPhases = (
+				F8D573102A9A9B1400CE616D /* Sources */,
+				F8D573112A9A9B1400CE616D /* Frameworks */,
+				F8D573122A9A9B1400CE616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosBikeDataApp;
+			packageProductDependencies = (
+				F87C2EF92AA17BC3008E4753 /* FirebaseAnalytics */,
+				F87C2EFB2AA17BC3008E4753 /* FirebaseAnalyticsSwift */,
+				F8078F3D2AA6630E00D7102F /* FirebaseAuth */,
+				F8078F3F2AA6632F00D7102F /* FirebaseFirestore */,
+				F8078F412AA6633900D7102F /* FirebaseFirestoreSwift */,
+			);
+			productName = iosBikeDataApp;
+			productReference = F8D573142A9A9B1400CE616D /* iosBikeDataApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D573232A9A9B1600CE616D /* iosBikeDataAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5733B2A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataAppTests" */;
+			buildPhases = (
+				F8D573202A9A9B1600CE616D /* Sources */,
+				F8D573212A9A9B1600CE616D /* Frameworks */,
+				F8D573222A9A9B1600CE616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D573262A9A9B1600CE616D /* PBXTargetDependency */,
+			);
+			name = iosBikeDataAppTests;
+			productName = iosBikeDataAppTests;
+			productReference = F8D573242A9A9B1600CE616D /* iosBikeDataAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D5732D2A9A9B1600CE616D /* iosBikeDataAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5733E2A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataAppUITests" */;
+			buildPhases = (
+				F8D5732A2A9A9B1600CE616D /* Sources */,
+				F8D5732B2A9A9B1600CE616D /* Frameworks */,
+				F8D5732C2A9A9B1600CE616D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D573302A9A9B1600CE616D /* PBXTargetDependency */,
+			);
+			name = iosBikeDataAppUITests;
+			productName = iosBikeDataAppUITests;
+			productReference = F8D5732E2A9A9B1600CE616D /* iosBikeDataAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D5730C2A9A9B1400CE616D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F8D573132A9A9B1400CE616D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F8D573232A9A9B1600CE616D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F8D573132A9A9B1400CE616D;
+					};
+					F8D5732D2A9A9B1600CE616D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F8D573132A9A9B1400CE616D;
+					};
+				};
+			};
+			buildConfigurationList = F8D5730F2A9A9B1400CE616D /* Build configuration list for PBXProject "iosBikeDataApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D5730B2A9A9B1400CE616D;
+			packageReferences = (
+				F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F8D573152A9A9B1400CE616D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D573132A9A9B1400CE616D /* iosBikeDataApp */,
+				F8D573232A9A9B1600CE616D /* iosBikeDataAppTests */,
+				F8D5732D2A9A9B1600CE616D /* iosBikeDataAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D573122A9A9B1400CE616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D5731F2A9A9B1600CE616D /* Preview Assets.xcassets in Resources */,
+				F8D5731C2A9A9B1600CE616D /* Assets.xcassets in Resources */,
+				F87C2EFE2AA17D6F008E4753 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D573222A9A9B1600CE616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5732C2A9A9B1600CE616D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D573102A9A9B1400CE616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A8101C2AAC1D4700C040A6 /* ProfileView.swift in Sources */,
+				F8D08C752AAD36620042FABA /* MapView.swift in Sources */,
+				F8078F4B2AA669CC00D7102F /* ContentViewViewModel.swift in Sources */,
+				F8D08C772AAD376D0042FABA /* TrackingView.swift in Sources */,
+				F8D4E8C12AACD0CA0053EC27 /* BikingOptionView.swift in Sources */,
+				F8E14D892AB6618F00D56196 /* BikeLocation.swift in Sources */,
+				F8B0C6E52AC9D78000B6CDBC /* DailySpeedChartView.swift in Sources */,
+				F8078F3B2AA656DA00D7102F /* LoginViewViewModel.swift in Sources */,
+				F8078F492AA6682400D7102F /* Extentions.swift in Sources */,
+				F8078F442AA6640200D7102F /* RegisterViewViewModel.swift in Sources */,
+				F8D5731A2A9A9B1400CE616D /* ContentView.swift in Sources */,
+				F8F519022A9D8035005AAC28 /* StopWatchView.swift in Sources */,
+				F8D08C7B2AAD5C0D0042FABA /* MapViewRepresentable.swift in Sources */,
+				F86612DA2ABFC45B00FEB532 /* DataCollectionView.swift in Sources */,
+				F8B0C6EB2AC9DCC700B6CDBC /* SpeedView.swift in Sources */,
+				F8078F472AA666DC00D7102F /* User.swift in Sources */,
+				F81667342AC8BF4400C3BC39 /* StatsView.swift in Sources */,
+				F8D08C7E2AAD5EAA0042FABA /* LocationManager.swift in Sources */,
+				F8F56D822AA509680037CF1D /* RegisterView.swift in Sources */,
+				F842FE5D2AA96E7000F08FA8 /* HomeView.swift in Sources */,
+				F84EF9032AAE285300B2CD08 /* LocationSearchResultCell.swift in Sources */,
+				F8B0C6E72AC9D79100B6CDBC /* WeeklySpeedChartView.swift in Sources */,
+				F8E14D8B2AB66EE300D56196 /* Color.swift in Sources */,
+				F8A8101E2AAC263E00C040A6 /* ProfileViewViewModel.swift in Sources */,
+				F8E14D842AB6140500D56196 /* MapViewState.swift in Sources */,
+				F8D4E8BF2AACC2390053EC27 /* NewStopWatchView.swift in Sources */,
+				F86612D82ABF703800FEB532 /* DataCollection.swift in Sources */,
+				F8B0C6E92AC9D7A200B6CDBC /* MonthlySpeedChartView.swift in Sources */,
+				F8A9D14A2AC0E3B400948284 /* MonthlyChartView.swift in Sources */,
+				F88866652AB1472B005433DC /* LocationSearchViewModel.swift in Sources */,
+				F84EF8FF2AAE247200B2CD08 /* MapViewActionButton.swift in Sources */,
+				F8A9D1462AC0E38900948284 /* DailyStatsChartView.swift in Sources */,
+				F8A9D1482AC0E3A200948284 /* WeeklyChartsView.swift in Sources */,
+				F8F56D802AA502560037CF1D /* LoginView.swift in Sources */,
+				F8D573182A9A9B1400CE616D /* iosBikeDataAppApp.swift in Sources */,
+				F8D08C792AAD377C0042FABA /* StaticBikeView.swift in Sources */,
+				F8A9D1432AC0D5ED00948284 /* HomeViewViewModel.swift in Sources */,
+				F84EF9012AAE258700B2CD08 /* LocationSearchView.swift in Sources */,
+				F84EF8FD2AAE22B000B2CD08 /* LocationSearchActivationView.swift in Sources */,
+				F86612D62ABF68B100FEB532 /* StaticBikeViewViewModel.swift in Sources */,
+				F86612D42ABF556A00FEB532 /* Double.swift in Sources */,
+				F8E14D872AB61DFD00D56196 /* StartStopWatchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D573202A9A9B1600CE616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D573292A9A9B1600CE616D /* iosBikeDataAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5732A2A9A9B1600CE616D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D573332A9A9B1600CE616D /* iosBikeDataAppUITests.swift in Sources */,
+				F8D573352A9A9B1600CE616D /* iosBikeDataAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D573262A9A9B1600CE616D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D573132A9A9B1400CE616D /* iosBikeDataApp */;
+			targetProxy = F8D573252A9A9B1600CE616D /* PBXContainerItemProxy */;
+		};
+		F8D573302A9A9B1600CE616D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D573132A9A9B1400CE616D /* iosBikeDataApp */;
+			targetProxy = F8D5732F2A9A9B1600CE616D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8D573362A9A9B1600CE616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D573372A9A9B1600CE616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D573392A9A9B1600CE616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iosBikeDataApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bike Data App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please let us access your location to accurately track your bike rides";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D5733A2A9A9B1600CE616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iosBikeDataApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bike Data App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please let us access your location to accurately track your bike rides";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8D5733C2A9A9B1600CE616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosBikeDataApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosBikeDataApp";
+			};
+			name = Debug;
+		};
+		F8D5733D2A9A9B1600CE616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosBikeDataApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iosBikeDataApp";
+			};
+			name = Release;
+		};
+		F8D5733F2A9A9B1600CE616D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosBikeDataApp;
+			};
+			name = Debug;
+		};
+		F8D573402A9A9B1600CE616D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bikeapp.iosBikeDataAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosBikeDataApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D5730F2A9A9B1400CE616D /* Build configuration list for PBXProject "iosBikeDataApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D573362A9A9B1600CE616D /* Debug */,
+				F8D573372A9A9B1600CE616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D573382A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D573392A9A9B1600CE616D /* Debug */,
+				F8D5733A2A9A9B1600CE616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5733B2A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5733C2A9A9B1600CE616D /* Debug */,
+				F8D5733D2A9A9B1600CE616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5733E2A9A9B1600CE616D /* Build configuration list for PBXNativeTarget "iosBikeDataAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5733F2A9A9B1600CE616D /* Debug */,
+				F8D573402A9A9B1600CE616D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8078F3D2AA6630E00D7102F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F8078F3F2AA6632F00D7102F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F8078F412AA6633900D7102F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F87C2EF92AA17BC3008E4753 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F87C2EFB2AA17BC3008E4753 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F87C2EF82AA17BC3008E4753 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F8D5730C2A9A9B1400CE616D /* Project object */;
+}

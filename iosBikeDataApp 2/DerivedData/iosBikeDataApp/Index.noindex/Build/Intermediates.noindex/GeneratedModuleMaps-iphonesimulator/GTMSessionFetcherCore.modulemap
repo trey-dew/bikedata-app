@@ -1,0 +1,4 @@
+module GTMSessionFetcherCore {
+umbrella "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/gtm-session-fetcher/Sources/Core/Public"
+export *
+}

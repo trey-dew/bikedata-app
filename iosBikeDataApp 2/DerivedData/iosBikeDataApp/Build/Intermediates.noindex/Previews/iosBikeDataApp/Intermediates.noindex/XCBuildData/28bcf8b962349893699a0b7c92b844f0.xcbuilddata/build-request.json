@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "preview"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "1d3c0222b022e29942432b238fa93fcad7f427354773fe2fdfb6c6828365a3cc"
+    }
+  ],
+  "containerPath" : "/Users/user245042/Desktop/iosBikeDataApp/iosBikeDataApp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Products",
+      "derivedDataPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Intermediates.noindex/Previews/iosBikeDataApp/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Intermediates.noindex/Previews/iosBikeDataApp/Intermediates.noindex",
+          "SYMROOT" : "/Users/user245042/Desktop/iosBikeDataApp/DerivedData/iosBikeDataApp/Build/Intermediates.noindex/Previews/iosBikeDataApp/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

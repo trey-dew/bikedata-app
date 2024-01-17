@@ -1,0 +1,173 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "28e6b7888a0f1fc54c79e1f08c7a9b33153ee59e08236bcc9aaaf78bbe18c3be"
+build_start_time: [1701662884, 396079000]
+build_end_time: [1701662888, 109435000]
+inputs:
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyMessageStorage.swift"
+  : [1693533213, 250987922]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyUnpackError.swift"
+  : [1693533213, 251060881]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecoder.swift"
+  : [1693533213, 251212381]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingError.swift"
+  : [1693533213, 251283673]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingOptions.swift"
+  : [1693533213, 251340548]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDelimited.swift"
+  : [1693533213, 251434173]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncoder.swift"
+  : [1693533213, 251510257]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingError.swift"
+  : [1693533213, 251566007]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift"
+  : [1693533213, 251674549]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingVisitor.swift"
+  : [1693533213, 251775632]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/CustomJSONCodable.swift"
+  : [1693533213, 251895757]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Data+Extensions.swift"
+  : [1693533213, 251954591]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Decoder.swift"
+  : [1693533213, 252362592]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/DoubleParser.swift"
+  : [1693533213, 252425092]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Enum.swift"
+  : [1693533213, 252499342]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensibleMessage.swift"
+  : [1693533213, 252559300]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFieldValueSet.swift"
+  : [1693533213, 252813259]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFields.swift"
+  : [1693533213, 252928093]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionMap.swift"
+  : [1693533213, 253000010]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTag.swift"
+  : [1693533213, 253065635]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTypes.swift"
+  : [1693533213, 253142552]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift"
+  : [1693533213, 253240760]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift"
+  : [1693533213, 253327052]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift"
+  : [1693533213, 253400094]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift"
+  : [1693533213, 253499261]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift"
+  : [1693533213, 253585053]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_NullValue+Extensions.swift"
+  : [1693533213, 253648719]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift"
+  : [1693533213, 253707595]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"
+  : [1693533213, 253803012]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift"
+  : [1693533213, 253875553]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift"
+  : [1693533213, 253967012]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/HashVisitor.swift"
+  : [1693533213, 254058137]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Internal.swift"
+  : [1693533213, 254127387]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecoder.swift"
+  : [1693533213, 254677180]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingError.swift"
+  : [1693533213, 254769639]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingOptions.swift"
+  : [1693533213, 254843930]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncoder.swift"
+  : [1693533213, 254972514]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingError.swift"
+  : [1693533213, 255057848]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingOptions.swift"
+  : [1693533213, 255127223]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingVisitor.swift"
+  : [1693533213, 255512474]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift"
+  : [1693533213, 255591016]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONScanner.swift"
+  : [1693533213, 255849516]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/MathUtils.swift"
+  : [1693533213, 255921599]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+AnyAdditions.swift"
+  : [1693533213, 256066225]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+BinaryAdditions.swift"
+  : [1693533213, 256152558]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONAdditions.swift"
+  : [1693533213, 256246058]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift"
+  : [1693533213, 256310684]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+TextFormatAdditions.swift"
+  : [1693533213, 256385850]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message.swift"
+  : [1693533213, 256491351]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/MessageExtension.swift"
+  : [1693533213, 256574893]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/NameMap.swift"
+  : [1693533213, 256680059]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtoNameProviding.swift"
+  : [1693533213, 256756185]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift"
+  : [1693533213, 256829227]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufMap.swift"
+  : [1693533213, 256893977]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/SelectiveVisitor.swift"
+  : [1693533213, 256968227]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/SimpleExtensionMap.swift"
+  : [1693533213, 257055477]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/StringUtils.swift"
+  : [1693533213, 257126519]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecoder.swift"
+  : [1693533213, 257223477]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingError.swift"
+  : [1693533213, 257305061]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingOptions.swift"
+  : [1693533213, 257362561]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncoder.swift"
+  : [1693533213, 257421853]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingOptions.swift"
+  : [1693533213, 257481603]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift"
+  : [1693533213, 257544186]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatScanner.swift"
+  : [1693533213, 257766104]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/TimeUtils.swift"
+  : [1693533213, 257845979]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnknownStorage.swift"
+  : [1693533213, 257913604]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeBufferPointer+Shims.swift"
+  : [1693533213, 257988062]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeRawPointer+Shims.swift"
+  : [1693533213, 258046396]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Varint.swift"
+  : [1693533213, 258371230]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Version.swift"
+  : [1693533213, 258433022]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/Visitor.swift"
+  : [1693533213, 258552188]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/WireFormat.swift"
+  : [1693533213, 258635480]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/ZigZag.swift"
+  : [1693533213, 258701897]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/any.pb.swift"
+  : [1693533213, 258755939]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/api.pb.swift"
+  : [1693533213, 258820314]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/descriptor.pb.swift"
+  : [1693533213, 259007315]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/duration.pb.swift"
+  : [1693533213, 259093357]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/empty.pb.swift"
+  : [1693533213, 259151565]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/field_mask.pb.swift"
+  : [1693533213, 259215190]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/source_context.pb.swift"
+  : [1693533213, 259273690]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/struct.pb.swift"
+  : [1693533213, 259336649]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/timestamp.pb.swift"
+  : [1693533213, 259398815]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/type.pb.swift"
+  : [1693533213, 259471024]
+  ? "/Users/user245042/Library/Developer/Xcode/DerivedData/iosBikeDataApp-hboynkrqbpetwbdbgrknlgyvoouq/SourcePackages/checkouts/swift-protobuf/Sources/SwiftProtobuf/wrappers.pb.swift"
+  : [1693533213, 259549357]
